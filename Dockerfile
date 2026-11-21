@@ -61,8 +61,8 @@ RUN composer install \
     --no-interaction \
     --prefer-dist \
     --optimize-autoloader
-    
-    # Publish Filament CSS and JavaScript assets
+
+# Publish Filament CSS and JavaScript assets
 RUN php artisan filament:assets
 
 # Configure Apache
